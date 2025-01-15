@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Groovy when modifying a list while iterating over it.  The `each` method's iterator is not robust against structural changes during iteration. The `bug.groovy` file shows the problematic code. The `bugSolution.groovy` provides the corrected approach, using an iterator that handles removals gracefully.
